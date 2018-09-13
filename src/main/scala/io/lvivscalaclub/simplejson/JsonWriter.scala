@@ -1,5 +1,5 @@
 package io.lvivscalaclub.simplejson
 
-trait JsonWriter[A] {
+trait JsonWriter[-A] {
   def write(obj: A): String
 }
